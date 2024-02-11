@@ -1,1 +1,1 @@
-
+# This ia a dropper program. So if the client.py is executed on the target system, it will download an encoded image from the server and then try to decode the text inside the image and finally write it to a py file and execute the script
