@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/get/image')
 def get_file():
-    file_path = 'eimage.png'
+    file_path = '/path/to/encoded/image'
     return send_file(file_path, as_attachment=True)
 
 if __name__ == '__main__':
